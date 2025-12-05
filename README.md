@@ -1,7 +1,7 @@
 # Task Tracker CLI (Go)
 
 This is my solution for the **Task Tracker** project from roadmap.sh.  
-👉 Project URL: https://roadmap.sh/projects/task-tracker
+👉 Project URL: <https://roadmap.sh/projects/task-tracker>
 
 A simple command-line application written in **Go** that allows you to manage tasks by creating, updating, deleting, and changing their status. All tasks are stored persistently in a local JSON file.
 
