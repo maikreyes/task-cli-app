@@ -31,9 +31,9 @@ func Run() {
 	case "update":
 		updateCommand(args[1:])
 	case "mark-done":
-		updateDoneStatus(args[1:])
+		updateStatus(args[1:], 0)
 	case "mark-in-progress":
-		updateInProgressStatus(args[1:])
+		updateStatus(args[1:], 1)
 	case "delete":
 		deleteTask(args[1:])
 	case "list":
